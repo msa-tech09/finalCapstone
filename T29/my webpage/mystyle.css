@@ -1,0 +1,277 @@
+/*Header styles*/
+header {
+  display: flex;
+  /* set display to flex */
+  justify-content: center;
+  /* set justfiy-content to center */
+  align-items: center;
+  /* set align-items to center */
+  background-color: #902121;
+  /* set background color to #902121 (one type of red) */
+  padding: 5px;
+  /* set padding to 5px */
+}
+
+/*Header container styles*/
+.header-container {
+  display: flex;
+  /* set display to flex */
+  justify-content: space-between;
+  /* set justify-content to space-between */
+  align-items: center;
+  /* set align-items to center */
+  width: 90%;
+  /* set width to 90% */
+  margin: 0 auto;
+  /* set margin to 0 and auto */
+}
+
+/* h1 styles */
+header h1 {
+  font-size: 350%;
+  /* set font-size to 350% */
+  line-height: 160%;
+  /* set line-height to 160% */
+  color: white;
+  /* set text color to white */
+  margin: 5px 470px;
+  /* set margin to 5px and 470px */
+}
+
+/* media queries to change the style of elements based on the screen size. For example,
+the header h1 element's font size is set to 3vw when the screen width is between 576px and 768px */
+@media (max-width: 768px) and (min-width: 576px) {
+  header h1 {
+    font-size: 3vw;
+  }
+}
+
+/*Logo styles*/
+.logo img {
+  width: 200px;
+  /* set width to 200px */
+  height: 170px;
+  /* set height to 170px */
+}
+
+/*Logo 2 styles*/
+.logo2 img {
+  width: 180px;
+  /* set width to 180px */
+  height: 170px;
+  /* set height to 170px */
+  opacity: 70%;
+  float: right;
+}
+
+/*Navigation styles*/
+nav {
+  background-color: #333333;
+  color: #FFFFFF;
+  padding: 20px;
+}
+
+/* nav ul styles */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+/* nav li style */
+nav li {
+  float: left;
+}
+
+/* nav a styles */
+nav a {
+  display: inline-block;
+  list-style: none;
+  margin: 5px 120px;
+  color: white;
+  text-align: center;
+  padding: 14px 12px;
+  position: relative;
+  text-decoration: none;
+  font-family: 'Times New Roman';
+  font-size: 20px;
+  letter-spacing: 0.5px;
+}
+
+nav a:hover {
+  background-color: #902121;
+  /* set background color for hover effect */
+}
+
+/*Hero section styles*/
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #D3D3D3;
+  padding: 50px;
+  font-family: 'Times New Roman';
+  font-size: x-large;
+}
+
+/* image style */
+.hero-section img {
+  width: 100%;
+}
+
+/* text style */
+.hero-section-text {
+  padding: 50px;
+}
+
+/* hero section paragraph style */
+#para {
+  font-size: large;
+  font-style: normal;
+  font-family: 'Times New Roman';
+  text-align: center;
+}
+
+/*News section styles*/
+.news-section {
+  padding: 15px;
+}
+
+/* h2 style */
+.news-section h2 {
+  font-family: 'Times New Roman';
+  font-size: xx-large;
+  font-weight: bold;
+  text-align: center;
+
+}
+
+/* ul style */
+.news-section ul {
+  font-size: large;
+  list-style-type: none;
+  text-align: center;
+  padding: 4px;
+}
+
+/* group image and Bruno quote styles */
+.parent-container {
+  float: right;
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin-right: 150px;
+  text-align: center;
+  font-style: italic;
+  color: black;
+  padding: 20px;
+  font-size: medium;
+}
+
+/* Ronaldo blockquote styles */
+.ronaldo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 100px;
+}
+
+/*quote square styles*/
+.quote-square {
+  width: 500px;
+  /* set width */
+  height: 150px;
+  /* set height  */
+  background-color: white;
+  /* set background color */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 7%;
+}
+
+/* blockquote styles */
+blockquote {
+  font-size: medium;
+  /* set font-size  */
+  font-style: italic;
+  color: black;
+  /* set text color */
+  text-align: left;
+  /* align the text to left */
+  padding: 20px;
+  /* set padding  */
+  max-width: 80%;
+  /* set max-width */
+}
+
+/* Ronaldo image style */
+.ronaldo img {
+  width: 620px;
+  height: 500px;
+}
+
+/* footer style */
+footer {
+  text-align: center;
+  background-color: #000;
+  color: white;
+  padding: 10px;
+  margin-top: 10px;
+  position: relative;
+}
+
+/* footer p style */
+footer p {
+  color: white;
+  padding: 5px;
+  margin-bottom: 1vw;
+}
+
+/* about-section style */
+.about-section {
+  padding-top: 20px;
+  font-size: x-large;
+  text-align: center;
+}
+
+/* para-about style */
+.para-about {
+  font-size: large;
+  font-family: 'Times New Roman';
+  font-style: italic;
+}
+
+/* history-section style */
+.history-section {
+  padding-top: 20px;
+  font-size: x-large;
+  margin-top: 50px;
+}
+
+/* para-history style */
+.para-history {
+  font-size: large;
+  font-family: 'Times New Roman';
+  margin-bottom: 110px;
+}
+
+/* contact-section style */
+.contact-section {
+  table-layout: auto;
+  font-size: large;
+  font-family: 'Times New Roman';
+}
+
+/* subcription-section style */
+.subscription-section {
+  font-size: large;
+  font-family: 'Times New Roman';
+}
+
+/* testimonial-section style */
+.testimonial-section {
+  font-size: large;
+  font-family: 'Times New Roman';
+}
